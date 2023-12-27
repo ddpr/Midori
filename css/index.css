@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+:root {
+    --bg-color: #000;
+    --bg-txt: #fff;
+}
+
+.header {
+    background-color: var(--bg-color);
+    color: var(--bg-txt);
+}
+
+.header .logo {
+    height: 75px;
+    width: auto;
+}
+
+.header ul {
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid red;
+}
+
+.header ul li {
+    border:1px solid slateblue;
+}
+
+.header ul li a {
+    text-decoration: none;
+    color: var(--bg-txt);
+}
