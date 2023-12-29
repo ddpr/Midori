@@ -6,7 +6,8 @@
 }
 
 :root {
-    --bg-color: #fff;
+    --bg-color: rgba(226, 236, 245, 0.867);
+    --bg-color-fade: rgba(226, 236, 245, 0.2);
     --bg-txt: #000;
 }
 
@@ -15,20 +16,37 @@ body {
     font-family: 'Saira', sans-serif;
 }
 
+.glitch-overlay{
+    background-image: url('/assets/glitch.jpg');
+    background-size: cover; 
+    width: 100%;
+    height:100%;
+    position:fixed;
+    top: 0;
+    left: 0;
+    display:block;
+    opacity: .25;
+    z-index: -1;
+}
+
+.header, .main-content{
+    z-index: 1;
+}
+
 .header {
     width: 1200px;  
     margin: 10px auto;
     border-radius: 10px;
-    background: linear-gradient(to right, black, white, black);
+    background: var(--bg-color);
     display: flex;
     align-items: center;
+    box-shadow: 5px 5px 5px #000000bf;
 }
 
 .header .logo {
-    height: 75px;
+    height: 100px;
     width: auto;
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
+    padding: 0 20px;
 }
 
 .header ul {
@@ -58,11 +76,12 @@ body {
     width: 1200px;
     border-radius: 10px;
     color: #fff;
-    background-color: rgb(100, 100, 100,0.5);
-    margin: 0 auto;
+    background-color: var(--bg-color-fade);
+    margin: 20px auto;
     font-size: 12.5px;
+    box-shadow: 5px 5px 5px #000000bf;
 }
 
 .main-content .main-center{
-    padding: 20px 0;
+    padding: 20px;
 }
