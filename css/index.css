@@ -4,14 +4,15 @@
 }
 
 :root {
-    --bg-color: #000;
-    --bg-txt: #fff;
+    --bg-color: #fff;
+    --bg-txt: #000;
 }
 
 .header {
+    width: 1200px;  
+    margin: 10px auto;
+    border-radius: 10px;
     background-color: var(--bg-color);
-    background-image:url('/assets/stars5.gif');
-    color: var(--bg-txt);
 }
 
 .header .logo {
@@ -24,7 +25,6 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    border: 1px solid red;
 }
 
 .header ul li {
@@ -41,6 +41,9 @@ body{
 }
 
 .main-content{
-    color:var(--bg-txt);
-    background-color: rgb(100, 100, 100,0.4);
+    width: 1200px;
+    border-radius: 10px;
+    color: #fff;
+    background-color: rgb(100, 100, 100,0.5);
+    margin: 0 auto;
 }
