@@ -10,6 +10,7 @@
 
 .header {
     background-color: var(--bg-color);
+    background-image:url('/assets/stars5.gif');
     color: var(--bg-txt);
 }
 
@@ -33,4 +34,13 @@
 .header ul li a {
     text-decoration: none;
     color: var(--bg-txt);
+}
+
+body{
+    background-image: url('/assets/stars5.gif');
+}
+
+.main-content{
+    color:var(--bg-txt);
+    background-color: rgb(100, 100, 100,0.4);
 }
