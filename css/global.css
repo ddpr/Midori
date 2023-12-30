@@ -117,7 +117,13 @@ body {
     border-left: 2px solid rgba(255, 255, 255, 0.5);
 }
 
+
+
 img {
     width: 100%;
     height: auto;
+}
+
+.box-shadow {
+    box-shadow: 5px 5px 5px #000000bf;
 }

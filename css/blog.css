@@ -1,0 +1,13 @@
+.blog-content img{
+    width: 750px;
+    height: 250px;
+}
+
+.blog-content p{
+    color:antiquewhite;
+}
+
+.side-bar a{
+    text-decoration: none;
+    color: antiquewhite;
+}
